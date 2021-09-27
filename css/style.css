@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+body{
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    text-decoration: none;
+}
+
+
+.navbar{
+    background:#ffdbe7;
+    text-decoration: none;
+    font-size: 22px;
+	
+}
+.nav-link{
+    color: rgb(98, 0, 98);
+    font-family: 'Rubik', sans-serif;
+
+
+}
+.nav-link:hover{
+    color: whitesmoke;
+}
+
+/*icono SPOTIFY*/
+
+.icon-spotify{
+    color: #1DB954;
+    font-size: 22px;
+}
+
+.logo{
+    width: auto;
+    height: auto;
+    margin-left: 25px;
+    
+}
+
+/*body*/
+
+.tituloh1{
+    text-align: center;
+    font-size: 65px;
+    font-family: 'Sacramento', cursive;
+    color: rgb(98, 0, 98);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tituloh2{
+    text-align: center;
+    font-size: 35px;
+    font-family: cursive;
+    color: dodgerblue;
+}
+
+.links{
+    text-decoration: none;
+    color: rgb(98, 0, 98);
+}
+
+.links:hover{
+    color: #ffdbe7;
+    text-decoration: underline;
+}
+/*LISTAS: js*/
+
+.lista{
+    text-decoration:none;
+    color: rgb(98, 0, 98) ;
+}
+.lista:hover{
+    text-decoration:none;
+    color: rgb(124, 0, 124);
+}
+
+/*icon-ok*/
+.icon-ok{
+    color: green;
+}
+
+/*icon-MUSIC*/
+.icon-music{
+    color: rgb(255, 0, 0);
+}
+/*REACT JS*/
+.proximamente{
+    display: grid;
+    grid-template-rows: 0px 400px ;
+         
+}
+h2{
+    text-align: center;
+    color: rgb(98, 0, 98);
+    font-size: 65px;
+    margin-top: 140px;
+  
+
+}
+
+.footer{
+    background-color: #ffdbe7;
+    padding: 1em 0;
+    text-align: center;
+    height: 100px;
+    color: rgb(124, 0, 124);
+}
+
+.icon-heart{
+    color: rgb(124, 0, 124);
+    font-size: 15px;
+}
+
+.icon-heart:hover{
+    color:rgb(61, 14, 61);
+}
+.soy{
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+}
+.footer .soy:hover{
+    color:rgb(61, 14, 61);
+    
+}
